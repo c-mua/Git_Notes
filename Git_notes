@@ -1,0 +1,54 @@
+Commands to remember
+
+Terminal Commands:
+
+touch (filename).(extension)
+nano (filename).(extension)
+cd (go to home)
+cd .. (two .. means parent directory)
+cd . (one . means current direcotry)
+pwd (print working directory)
+ls (list)
+ls -F (if there are other directories in same level, see what's inside)
+ls -FR (see hierarchy)
+ls -l
+ls -a
+ls -Flr (combination of ls options)
+mkdir (make directory)
+mv (move, can be used to rename)
+mv (filename/directory name) (new filename/directory name)
+rm (filename)
+use: rm -i (i informs you if you want to removve file)
+rm -r (recursively remove directory)
+rm -ri
+cp (filename) (another file) -> copies file
+code (filename)-> this command opens file with VSCode
+code . 
+man (command)
+(command) --help
+
+Git commands:
+program | action | destination 
+git add (filename) -> adds file to staging area
+git add . -> adds everything in folder
+git status -> great for seeing where file at, green means in staging area, ready to push, red means not
+git commit -m "some message here of changes/something else"
+git log 
+git push ->pushes commit to remote repo
+git push origin main (does same as git push)
+
+
+following removes from git repo and filesystem
+git rm (filename)
+git commit -m "remove filename"
+
+
+following only removes from Git and not filesystem
+git rm --cached filename
+git commit -m "remove filename"
+git commit -m "remove filename"
+
+
+remember
+program | action | destination
+
